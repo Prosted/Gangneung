@@ -1,0 +1,22 @@
+@keyframes highsplashanimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-page {
+  position: absolute;
+  top: 70px;
+  right: 275px;
+  animation: highsplashanimation 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.splash-page img {
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.8), 0 1px 3px rgba(0, 0, 0, 0.8);
+}
