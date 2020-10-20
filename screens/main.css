@@ -1,22 +1,56 @@
 @keyframes highsplashanimation {
-  from {
+  0% {
     opacity: 1;
+    transform: scale(1);
   }
-  to {
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+  100% {
     opacity: 0;
+    transform: scale(0.1);
     visibility: hidden;
   }
 }
 
 .splash-page {
   position: absolute;
-  top: 70px;
-  right: 275px;
-  animation: highsplashanimation 0.5s ease-in-out forwards;
+  top: 140px;
+  right: 410px;
+  animation: highsplashanimation 0.7s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+.splash-page img {
+  width: 650px;
+  height: 450px;
 }
 
 .splash-page img {
   border-radius: 50px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.8), 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+#Gangneung-logo {
+  width: 150px;
+  height: 100px;
+}
+
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+}
+
+.main-header__column:first-child {
+  width: 90%;
+}
+
+.main-header__column:last-child {
+  width: 10%;
 }

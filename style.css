@@ -19,10 +19,6 @@ a {
   color: inherit;
 }
 
-#a {
-  height: 110vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#body {
+  height: 200vh;
 }
