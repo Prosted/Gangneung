@@ -1,3 +1,4 @@
+/* splash code */
 @keyframes highsplashanimation {
   0% {
     opacity: 1;
@@ -31,12 +32,9 @@
   border-radius: 50px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.8), 0 1px 3px rgba(0, 0, 0, 0.8);
 }
+/* splash code end */
 
-#Gangneung-logo {
-  width: 150px;
-  height: 100px;
-}
-
+/* background photo */
 #wave {
   z-index: -10;
   width: 100%;
@@ -44,7 +42,14 @@
   position: absolute;
   top: -110px;
 }
+/* bg photo code end */
+
 /* main header code */
+#Gangneung-logo {
+  width: 150px;
+  height: 100px;
+}
+
 .main-header {
   width: 100%;
   display: flex;
@@ -122,4 +127,59 @@
   color: white;
   padding: 0px 35px;
 }
-/* main header end code */ ;
+/* main header end code */
+
+/* welcome-header code */
+.welcome-header {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-size: 80px;
+  color: white;
+  font-family: "Nanum Brush Script", cursive;
+}
+
+.welcome-header__subtitle {
+  width: 63%;
+  text-align: center;
+  margin: 30px 0px;
+  color: white;
+  line-height: 25px;
+}
+
+.welcome-header__hashtag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 53%;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  font-size: 17px;
+}
+
+.welcome-header__hashtag span:first-child {
+  color: #26c48e;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.welcome-header__hashtag span i {
+  margin-right: 5px;
+}
+
+.welcome-header__hashtag .divider {
+  background-color: white;
+  margin: 0px 15px;
+}
+
+.welcome-header__hashtag-text {
+  margin: 0px 8px;
+}
+/* wlecome-header code end */
