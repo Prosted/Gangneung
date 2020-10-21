@@ -159,7 +159,7 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
   width: 53%;
-  height: 50px;
+  height: 60px;
   border-radius: 40px;
   color: white;
   font-size: 17px;
@@ -605,6 +605,7 @@
   height: 99px;
   border-radius: 50%;
   margin-right: 20px;
+  border: 6px solid powderblue;
 }
 
 .festival span {
