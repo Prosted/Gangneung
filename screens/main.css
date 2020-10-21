@@ -18,7 +18,7 @@
 .splash-page {
   position: absolute;
   top: 140px;
-  right: 410px;
+  right: 510px;
   animation: highsplashanimation 0.7s ease-in-out forwards;
   animation-delay: 1s;
 }
@@ -339,6 +339,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 194px;
 }
 
 .section__column:first-child {
@@ -526,3 +527,98 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 /* main-section code end*/
+
+/* main-footer code */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 50px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.footer-greentitle {
+  color: #25a261;
+  margin-left: 10px;
+}
+
+.footer-blocks {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-block {
+  width: 500px;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-block__name {
+  position: absolute;
+  top: 40px;
+  right: 133px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-block__title {
+  font-size: 50px;
+  margin-bottom: 170px;
+  margin-top: 20px;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+.block-white div {
+  color: white;
+  border-color: white;
+}
+
+.detail-absolute {
+  right: 70px;
+}
+
+.festivals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
+.festival {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.festival img {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.festival span {
+  font-size: 20px;
+  color: white;
+}
+
+/* main-footer code end */
+
+#main-greenbackground {
+  background-color: #2e9f71;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  position: absolute;
+  top: 2100px;
+}
