@@ -182,4 +182,13 @@
 .welcome-header__hashtag-text {
   margin: 0px 8px;
 }
+
+#pause-icon {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+  margin-top: 80px;
+  cursor: pointer;
+}
 /* wlecome-header code end */
