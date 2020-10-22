@@ -16,9 +16,12 @@
 }
 
 .splash-page {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 140px;
-  right: 510px;
   animation: highsplashanimation 0.7s ease-in-out forwards;
   animation-delay: 1s;
 }
