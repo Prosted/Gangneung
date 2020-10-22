@@ -8,6 +8,7 @@
 /* screens */
 @import "screens/index.css";
 @import "screens/main.css";
+@import "screens/theme.css";
 
 body {
   font-family: "Open Sans", sans-serif;
