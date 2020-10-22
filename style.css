@@ -30,6 +30,13 @@ a {
   align-items: center;
 }
 
-#main-color {
+#theme-body {
+  height: 1300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-html {
   background-color: #fff8f0;
 }
