@@ -119,13 +119,13 @@
 
 .main-header-icon:first-child {
   border-left: 1px solid rgba(0, 0, 0, 0.5);
-  padding-left: 33px;
+  padding-left: 35px;
 }
 
 .main-header-icon:last-child {
   background-color: #47514c;
   color: white;
-  padding: 0px 35px;
+  padding: 0px 38px;
 }
 /* main header end code */
 

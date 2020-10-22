@@ -22,7 +22,7 @@ a {
   color: inherit;
 }
 
-#body {
+#main-body {
   height: 300vh;
   display: flex;
   flex-direction: column;
